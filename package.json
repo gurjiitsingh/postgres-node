@@ -1,0 +1,17 @@
+{
+  "name": "docker-postgres-node",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "path": "^0.12.7",
+    "pg": "^8.13.0"
+  }
+}
